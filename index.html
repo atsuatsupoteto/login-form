@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,42 @@
     <title>Login</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
 
+<body>
     <div class="content">
         <h2 class="loginform-title">Sign in to your account</h2>
-        <form class="login">
-            <div class="email">
-                <label for="email">Your email</label>
-                <input class="input" type="email" id="email" />
-            </div>
-            <div class="password">
-                <label for="password">Password</label>
-                <input class="input" type="password" id="password" />
-            </div>
-            <button class="sign-in-button">Sign in</button>
-            <div class="sign-up-message">Don't have an account yet?
-                <a href="#">Sign up</a>
-            </div>
-        </form>
+        <table class="contents-table">
+            <form class="login">
+                <tr class="email">
+                    <th>
+                        <label class="label-email" for="email">Your email</label>
+                    </th>
+                </tr>
+                <tr class="email">
+                    <td>
+                        <input class="input-email" type="email" id="input-email" />
+                    </td>
+                </tr>
+                <tr class="password">
+                    <th>
+                        <label class="label-password" for="password">Password</label>
+                    </th>
+                </tr>
+                <tr class="password">
+                    <td>
+                        <input class="input-password" type="password" id="input-password" />
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <button class="sign-in-button" id="sign-in-button">Sign in</button>
+        <div class="sign-up-message">Don't have an account yet?
+            <a href="#">Sign up</a>
+        </div>
+
     </div>
 
     <script src="./assets/js/app.js"></script>
 </body>
+
 </html>

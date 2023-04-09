@@ -1,3 +1,64 @@
 body {
     background: #eee;
+    font-family: "ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN","Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo";
+    font-size: 15px;
+}
+label, input, button{
+    cursor:pointer;
+}
+input {
+    background: #525C75;
+    color: #eee;
+    border-radius: 4px;/*角の丸み*/
+    border: solid 1px;/*線*/
+    border-color: #808FB0;
+    height:25px;
+    width: 350px;
+    margin: 0px 0px 10px 0px;
+}
+
+/*
+login-form
+*/
+.content{
+    width: 400px;
+    min-width: 400px;
+    margin: 25px 25px 0px;
+    padding: 20px 0px 50px 30px;
+    color: #eee;
+    background-color: #2F3E5C;
+    border-radius: 10px;/*角の丸み*/
+    border: solid 1px;/*線*/
+    border-color: #808FB0;
+    text-align: left;
+}
+.loginform-title{}
+.login{}
+.email{
+    
+}
+.label-email{}
+.input-email{
+}
+.password{}
+.label-password{}
+.input-password{
+}
+.input{}
+
+
+
+button {
+    height: 30px;
+    width: 360px;
+    margin: 10px 1px 10px 0px;
+    background-color: #0074e8;
+    color: #eee;
+    border-radius: 6px;
+    border: solid 1px;
+    border-color: #2F3E5C;
+}
+.sign-in-button{}
+.sign-up-message{
+    margin: 10px 0px;
 }
