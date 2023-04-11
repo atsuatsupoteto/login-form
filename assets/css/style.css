@@ -13,17 +13,18 @@ input {
     border: solid 1px;/*線*/
     border-color: #808FB0;
     height:25px;
-    width: 350px;
+    width: 80%;
     margin: 0px 0px 10px 0px;
+    min-width: 250px;
 }
 
 /*
 login-form
 */
 .content{
-    width: 400px;
-    min-width: 400px;
-    margin: 25px 25px 0px;
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
     padding: 20px 0px 50px 30px;
     color: #eee;
     background-color: #2F3E5C;
@@ -50,7 +51,8 @@ login-form
 
 button {
     height: 30px;
-    width: 360px;
+    width: 62%;
+    min-width: 260px;
     margin: 10px 1px 10px 0px;
     background-color: #0074e8;
     color: #eee;
